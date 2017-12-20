@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<head>
+   <title>Garage controller</title>
+</head>
+
+<body>
+   <h1>Device Listing and Status</h1>
+
+   <p>The {{ name }}
+   {% if state == true %}
+      is currently open (<a href="/garage/close">close</a>)
+   {% else %}
+      is currently closed (<a href="/garage/open">open</a>)
+   {% endif %}
+   </p>
+
+   {% if message %}
+   <h2>{{ message }}</h2>
+   {% endif %}
+
+</body>
+</html>
