@@ -5,7 +5,7 @@ First install python pip
 You can get the information on how here:
 https://www.tecmint.com/install-pip-in-linux/
 
-# Then run command below #
+### Then run command below #
 pip install -r requirements.txt
 
 # MUSH TODO
